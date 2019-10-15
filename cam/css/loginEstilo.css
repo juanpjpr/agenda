@@ -1,0 +1,41 @@
+
+#Contenedor{
+	width: 400px;
+	margin: 50px auto;
+	background-color: rgb(236, 232, 232);
+        border: 1px solid rgb(175, 173, 173);
+	height: 400px;
+	border-radius:8px;
+	padding: 0px 9px 0px 9px;
+}
+ 
+
+
+.opcioncontra{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
+}
+ 
+/**
+ * En las siguientes lineas
+ * se define el diseño adaptable, para que
+ * se muestre en los dispositivos móviles
+ */
+ 
+/******************************************/
+/***    DISEÑO PARA MOVILES 320        ****/
+/******************************************/
+@media only screen and (max-width:320px){
+#Contenedor{
+	width: 100%;
+	height: auto;
+	margin: 0px;
+}
+ 
+/******************************************/
+/***    DISEÑO PARA MOVILES 240        ****/
+/******************************************/
+@media only screen and (max-width:240px){
+	
+}
